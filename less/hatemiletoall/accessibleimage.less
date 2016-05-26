@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*!
+ * HaTeMiLe to All for CSS
+ *
+ * Copyright 2016 Carlson Santana Cruz
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+img[alt][longdesc] {
+	mask: url("../../img/hatemiletoall/universal_access.svg#maskid");
+	mask-repeat: no-repeat;
+	mask-size: cover;
+	-webkit-mask-image: url("../../img/hatemiletoall/universal_access.png");
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: cover;
+}
+
+img[alt][longdesc]:hover {
+	mask: none;
+	-webkit-mask-image: none;
+}

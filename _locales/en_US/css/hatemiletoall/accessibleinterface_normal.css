@@ -1,0 +1,709 @@
+@charset "UTF-8";
+
+/*!
+ * HaTeMiLe to All for CSS
+ *
+ * Copyright 2016 Carlson Santana Cruz
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+[title]:before {
+	content: "(Title: " attr(title) ") ";
+}
+
+[accesskey]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ")";
+}
+
+[draggable="true"]:after {
+	content: " (Draggable)";
+}
+
+[aria-busy="true"]:before {
+	content: "(Updating) ";
+}
+
+[aria-checked="true"]:after {
+	content: " (Checked)";
+}
+
+[aria-checked="false"]:after {
+	content: " (Not checked)";
+}
+
+[aria-checked="mixed"]:after {
+	content: " (Half checked)";
+}
+
+[aria-expanded="true"]:after {
+	content: " (Expanded)";
+}
+
+[aria-expanded="false"]:after {
+	content: " (Collapsed)";
+}
+
+[aria-grabbed="true"]:after {
+	content: " (Dragging)";
+}
+
+[aria-grabbed="false"]:after {
+	content: " (Draggable)";
+}
+
+[aria-haspopup="true"]:after {
+	content: " (Has popup)";
+}
+
+[aria-label]:before {
+	content: "(Label: " attr(aria-label) ") ";
+}
+
+[aria-level]:before {
+	content: "(Level: " attr(aria-level) ") ";
+}
+
+[aria-pressed="true"]:after {
+	content: " (Pressed)";
+}
+
+[aria-pressed="false"]:after {
+	content: " (Not pressed)";
+}
+
+[aria-pressed="mixed"]:after {
+	content: " (Half pressed)";
+}
+
+[aria-selected="true"]:after {
+	content: " (Selected)";
+}
+
+[aria-selected="false"]:after {
+	content: " (Not selected)";
+}
+
+[aria-sort="ascending"]:before {
+	content: "(Sorted ascending) ";
+}
+
+[aria-sort="descending"]:before {
+	content: "(Sorted descending) ";
+}
+
+[aria-sort="other"]:before {
+	content: "(Sorted) ";
+}
+
+[aria-sort="other"]:after {
+	content: "";
+}
+
+[title][aria-busy="true"]:before {
+	content: "(Title: " attr(title) ") (Updating) ";
+}
+
+[title][aria-level]:before {
+	content: "(Title: " attr(title) ") (Level: " attr(aria-level) ") ";
+}
+
+[title][aria-sort="ascending"]:before {
+	content: "(Title: " attr(title) ") (Sorted ascending) ";
+}
+
+[title][aria-sort="descending"]:before {
+	content: "(Title: " attr(title) ") (Sorted descending) ";
+}
+
+[title][aria-sort="other"]:before {
+	content: "(Title: " attr(title) ") (Sorted) ";
+}
+
+[accesskey][aria-checked="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Checked)";
+}
+
+[accesskey][aria-checked="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Not checked)";
+}
+
+[accesskey][aria-checked="mixed"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Half checked)";
+}
+
+[accesskey][aria-expanded="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded)";
+}
+
+[accesskey][aria-expanded="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed)";
+}
+
+[accesskey][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Has popup)";
+}
+
+[accesskey][aria-pressed="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Pressed)";
+}
+
+[accesskey][aria-pressed="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Not pressed)";
+}
+
+[accesskey][aria-pressed="mixed"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Half pressed)";
+}
+
+[accesskey][aria-selected="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Selected)";
+}
+
+[accesskey][aria-selected="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Not selected)";
+}
+
+[accesskey][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ")";
+}
+
+[aria-busy="true"][aria-label]:before {
+	content: "(Updating) (Label: " attr(aria-label) ") ";
+}
+
+[aria-busy="true"][aria-level]:before {
+	content: "(Updating) (Level: " attr(aria-level) ") ";
+}
+
+[aria-busy="true"][aria-sort="ascending"]:before {
+	content: "(Updating) (Sorted ascending) ";
+}
+
+[aria-busy="true"][aria-sort="descending"]:before {
+	content: "(Updating) (Sorted descending) ";
+}
+
+[aria-busy="true"][aria-sort="other"]:before {
+	content: "(Updating) (Sorted) ";
+}
+
+[aria-checked="true"][aria-expanded="true"]:after {
+	content: " (Checked) (Expanded)";
+}
+
+[aria-checked="false"][aria-expanded="false"]:after {
+	content: " (Not checked) (Collapsed)";
+}
+
+[aria-checked="mixed"][aria-expanded="true"]:after {
+	content: " (Half checked) (Expanded)";
+}
+
+[aria-checked="true"][aria-expanded="false"]:after {
+	content: " (Checked) (Collapsed)";
+}
+
+[aria-checked="false"][aria-expanded="true"]:after {
+	content: " (Not checked) (Expanded)";
+}
+
+[aria-checked="mixed"][aria-expanded="false"]:after {
+	content: " (Half checked) (Collapsed)";
+}
+
+[aria-checked="true"][aria-haspopup="true"]:after {
+	content: " (Checked) (Has popup)";
+}
+
+[aria-checked="false"][aria-haspopup="true"]:after {
+	content: " (Not checked) (Has popup)";
+}
+
+[aria-checked="mixed"][aria-haspopup="true"]:after {
+	content: " (Half checked) (Has popup)";
+}
+
+[aria-expanded="true"][aria-haspopup="true"]:after {
+	content: " (Expanded) (Has popup)";
+}
+
+[aria-expanded="false"][aria-haspopup="true"]:after {
+	content: " (Collapsed) (Has popup)";
+}
+
+[aria-expanded="true"][aria-pressed="true"]:after {
+	content: " (Expanded) (Pressed)";
+}
+
+[aria-expanded="false"][aria-pressed="false"]:after {
+	content: " (Collapsed) (Not pressed)";
+}
+
+[aria-expanded="true"][aria-pressed="mixed"]:after {
+	content: " (Expanded) (Half pressed)";
+}
+
+[aria-expanded="false"][aria-pressed="true"]:after {
+	content: " (Collapsed) (Pressed)";
+}
+
+[aria-expanded="true"][aria-pressed="false"]:after {
+	content: " (Expanded) (Not pressed)";
+}
+
+[aria-expanded="false"][aria-pressed="mixed"]:after {
+	content: " (Collapsed) (Half pressed)";
+}
+
+[aria-expanded="true"][aria-selected="true"]:after {
+	content: " (Expanded) (Selected)";
+}
+
+[aria-expanded="false"][aria-selected="false"]:after {
+	content: " (Collapsed) (Not selected)";
+}
+
+[aria-expanded="true"][aria-selected="true"]:after {
+	content: " (Expanded) (Selected)";
+}
+
+[aria-expanded="false"][aria-selected="false"]:after {
+	content: " (Collapsed) (Not selected)";
+}
+
+[aria-expanded="true"][aria-sort="other"]:after {
+	content: " (Expanded)";
+}
+
+[aria-expanded="false"][aria-sort="other"]:after {
+	content: " (Collapsed)";
+}
+
+[aria-haspopup="true"][aria-pressed="true"]:after {
+	content: " (Has popup) (Pressed)";
+}
+
+[aria-haspopup="true"][aria-pressed="false"]:after {
+	content: " (Has popup) (Not pressed)";
+}
+
+[aria-haspopup="true"][aria-pressed="mixed"]:after {
+	content: " (Has popup) (Half pressed)";
+}
+
+[aria-haspopup="true"][aria-selected="true"]:after {
+	content: " (Has popup) (Selected)";
+}
+
+[aria-haspopup="true"][aria-selected="false"]:after {
+	content: " (Has popup) (Not selected)";
+}
+
+[aria-haspopup="true"][aria-sort="other"]:after {
+	content: " (Has popup)";
+}
+
+[aria-label][aria-level]:before {
+	content: "(Label: " attr(aria-label) ") (Level: " attr(aria-level) ") ";
+}
+
+[aria-label][aria-sort="ascending"]:before {
+	content: "(Label: " attr(aria-label) ") (Sorted ascending) ";
+}
+
+[aria-label][aria-sort="descending"]:before {
+	content: "(Label: " attr(aria-label) ") (Sorted descending) ";
+}
+
+[aria-label][aria-sort="other"]:before {
+	content: "(Label: " attr(aria-label) ") (Sorted) ";
+}
+
+[aria-selected="true"][aria-sort="other"]:after {
+	content: " (Selected)";
+}
+
+[aria-selected="false"][aria-sort="other"]:after {
+	content: " (Not selected)";
+}
+
+[title][aria-busy="true"][aria-level]:before {
+	content: "(Title: " attr(title) ") (Updating) (Level: " attr(aria-level) ") ";
+}
+
+[title][aria-busy="true"][aria-sort="ascending"]:before {
+	content: "(Title: " attr(title) ") (Updating) (Sorted ascending) ";
+}
+
+[title][aria-busy="true"][aria-sort="descending"]:before {
+	content: "(Title: " attr(title) ") (Updating) (Sorted descending) ";
+}
+
+[title][aria-busy="true"][aria-sort="other"]:before {
+	content: "(Title: " attr(title) ") (Updating) (Sorted) ";
+}
+
+[accesskey][aria-checked="true"][aria-expanded="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Checked) (Expanded)";
+}
+
+[accesskey][aria-checked="false"][aria-expanded="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Not checked) (Collapsed)";
+}
+
+[accesskey][aria-checked="mixed"][aria-expanded="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Half checked) (Expanded)";
+}
+
+[accesskey][aria-checked="true"][aria-expanded="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Checked) (Collapsed)";
+}
+
+[accesskey][aria-checked="false"][aria-expanded="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Not checked) (Expanded)";
+}
+
+[accesskey][aria-checked="mixed"][aria-expanded="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Half checked) (Collapsed)";
+}
+
+[accesskey][aria-checked="true"][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Checked) (Has popup)";
+}
+
+[accesskey][aria-checked="false"][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Not checked) (Has popup)";
+}
+
+[accesskey][aria-checked="mixed"][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Half checked) (Has popup)";
+}
+
+[accesskey][aria-expanded="true"][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Has popup)";
+}
+
+[accesskey][aria-expanded="false"][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Has popup)";
+}
+
+[accesskey][aria-expanded="true"][aria-pressed="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Pressed)";
+}
+
+[accesskey][aria-expanded="false"][aria-pressed="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Not pressed)";
+}
+
+[accesskey][aria-expanded="true"][aria-pressed="mixed"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Half pressed)";
+}
+
+[accesskey][aria-expanded="false"][aria-pressed="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Pressed)";
+}
+
+[accesskey][aria-expanded="true"][aria-pressed="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Not pressed)";
+}
+
+[accesskey][aria-expanded="false"][aria-pressed="mixed"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Half pressed)";
+}
+
+[accesskey][aria-expanded="true"][aria-selected="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Selected)";
+}
+
+[accesskey][aria-expanded="false"][aria-selected="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Not selected)";
+}
+
+[accesskey][aria-expanded="true"][aria-selected="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Selected)";
+}
+
+[accesskey][aria-expanded="false"][aria-selected="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Not selected)";
+}
+
+[accesskey][aria-expanded="true"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded)";
+}
+
+[accesskey][aria-expanded="false"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed)";
+}
+
+[accesskey][aria-haspopup="true"][aria-pressed="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Has popup) (Pressed)";
+}
+
+[accesskey][aria-haspopup="true"][aria-pressed="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Has popup) (Not pressed)";
+}
+
+[accesskey][aria-haspopup="true"][aria-pressed="mixed"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Has popup) (Half pressed)";
+}
+
+[accesskey][aria-haspopup="true"][aria-selected="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Has popup) (Selected)";
+}
+
+[accesskey][aria-haspopup="true"][aria-selected="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Has popup) (Not selected)";
+}
+
+[accesskey][aria-haspopup="true"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Has popup)";
+}
+
+[accesskey][aria-selected="true"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Selected)";
+}
+
+[accesskey][aria-selected="false"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Not selected)";
+}
+
+[aria-busy="true"][aria-label][aria-level]:before {
+	content: "(Updating) (Label: " attr(aria-label) ") (Level: " attr(aria-level) ") ";
+}
+
+[aria-busy="true"][aria-label][aria-sort="ascending"]:before {
+	content: "(Updating) (Label: " attr(aria-label) ") (Sorted ascending) ";
+}
+
+[aria-busy="true"][aria-label][aria-sort="descending"]:before {
+	content: "(Updating) (Label: " attr(aria-label) ") (Sorted descending) ";
+}
+
+[aria-busy="true"][aria-label][aria-sort="other"]:before {
+	content: "(Updating) (Label: " attr(aria-label) ") (Sorted) ";
+}
+
+[aria-checked="true"][aria-expanded="true"][aria-haspopup="true"]:after {
+	content: " (Checked) (Expanded) (Has popup)";
+}
+
+[aria-checked="false"][aria-expanded="false"][aria-haspopup="true"]:after {
+	content: " (Not checked) (Collapsed) (Has popup)";
+}
+
+[aria-checked="mixed"][aria-expanded="true"][aria-haspopup="true"]:after {
+	content: " (Half checked) (Expanded) (Has popup)";
+}
+
+[aria-checked="true"][aria-expanded="false"][aria-haspopup="true"]:after {
+	content: " (Checked) (Collapsed) (Has popup)";
+}
+
+[aria-checked="false"][aria-expanded="true"][aria-haspopup="true"]:after {
+	content: " (Not checked) (Expanded) (Has popup)";
+}
+
+[aria-checked="mixed"][aria-expanded="false"][aria-haspopup="true"]:after {
+	content: " (Half checked) (Collapsed) (Has popup)";
+}
+
+[aria-expanded="true"][aria-haspopup="true"][aria-pressed="true"]:after {
+	content: " (Expanded) (Has popup) (Pressed)";
+}
+
+[aria-expanded="false"][aria-haspopup="true"][aria-pressed="false"]:after {
+	content: " (Collapsed) (Has popup) (Not pressed)";
+}
+
+[aria-expanded="true"][aria-haspopup="true"][aria-pressed="mixed"]:after {
+	content: " (Expanded) (Has popup) (Half pressed)";
+}
+
+[aria-expanded="false"][aria-haspopup="true"][aria-pressed="true"]:after {
+	content: " (Collapsed) (Has popup) (Pressed)";
+}
+
+[aria-expanded="true"][aria-haspopup="true"][aria-pressed="false"]:after {
+	content: " (Expanded) (Has popup) (Not pressed)";
+}
+
+[aria-expanded="false"][aria-haspopup="true"][aria-pressed="mixed"]:after {
+	content: " (Collapsed) (Has popup) (Half pressed)";
+}
+
+[aria-expanded="true"][aria-haspopup="true"][aria-selected="true"]:after {
+	content: " (Expanded) (Has popup) (Selected)";
+}
+
+[aria-expanded="false"][aria-haspopup="true"][aria-selected="false"]:after {
+	content: " (Collapsed) (Has popup) (Not selected)";
+}
+
+[aria-expanded="true"][aria-haspopup="true"][aria-selected="true"]:after {
+	content: " (Expanded) (Has popup) (Selected)";
+}
+
+[aria-expanded="false"][aria-haspopup="true"][aria-selected="false"]:after {
+	content: " (Collapsed) (Has popup) (Not selected)";
+}
+
+[aria-expanded="true"][aria-haspopup="true"][aria-sort="other"]:after {
+	content: " (Expanded) (Has popup)";
+}
+
+[aria-expanded="false"][aria-haspopup="true"][aria-sort="other"]:after {
+	content: " (Collapsed) (Has popup)";
+}
+
+[aria-expanded="true"][aria-selected="true"][aria-sort="other"]:after {
+	content: " (Expanded) (Selected)";
+}
+
+[aria-expanded="false"][aria-selected="false"][aria-sort="other"]:after {
+	content: " (Collapsed) (Not selected)";
+}
+
+[aria-expanded="true"][aria-selected="true"][aria-sort="other"]:after {
+	content: " (Expanded) (Selected)";
+}
+
+[aria-expanded="false"][aria-selected="false"][aria-sort="other"]:after {
+	content: " (Collapsed) (Not selected)";
+}
+
+[aria-haspopup="true"][aria-selected="true"][aria-sort="other"]:after {
+	content: " (Has popup) (Selected)";
+}
+
+[aria-haspopup="true"][aria-selected="false"][aria-sort="other"]:after {
+	content: " (Has popup) (Not selected)";
+}
+
+[accesskey][aria-checked="true"][aria-expanded="true"][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Checked) (Expanded) (Has popup)";
+}
+
+[accesskey][aria-checked="false"][aria-expanded="false"][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Not checked) (Collapsed) (Has popup)";
+}
+
+[accesskey][aria-checked="mixed"][aria-expanded="true"][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Half checked) (Expanded) (Has popup)";
+}
+
+[accesskey][aria-checked="true"][aria-expanded="false"][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Checked) (Collapsed) (Has popup)";
+}
+
+[accesskey][aria-checked="false"][aria-expanded="true"][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Not checked) (Expanded) (Has popup)";
+}
+
+[accesskey][aria-checked="mixed"][aria-expanded="false"][aria-haspopup="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Half checked) (Collapsed) (Has popup)";
+}
+
+[accesskey][aria-expanded="true"][aria-haspopup="true"][aria-pressed="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Has popup) (Pressed)";
+}
+
+[accesskey][aria-expanded="false"][aria-haspopup="true"][aria-pressed="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Has popup) (Not pressed)";
+}
+
+[accesskey][aria-expanded="true"][aria-haspopup="true"][aria-pressed="mixed"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Has popup) (Half pressed)";
+}
+
+[accesskey][aria-expanded="false"][aria-haspopup="true"][aria-pressed="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Has popup) (Pressed)";
+}
+
+[accesskey][aria-expanded="true"][aria-haspopup="true"][aria-pressed="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Has popup) (Not pressed)";
+}
+
+[accesskey][aria-expanded="false"][aria-haspopup="true"][aria-pressed="mixed"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Has popup) (Half pressed)";
+}
+
+[accesskey][aria-expanded="true"][aria-haspopup="true"][aria-selected="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Has popup) (Selected)";
+}
+
+[accesskey][aria-expanded="false"][aria-haspopup="true"][aria-selected="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Has popup) (Not selected)";
+}
+
+[accesskey][aria-expanded="true"][aria-haspopup="true"][aria-selected="true"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Has popup) (Selected)";
+}
+
+[accesskey][aria-expanded="false"][aria-haspopup="true"][aria-selected="false"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Has popup) (Not selected)";
+}
+
+[accesskey][aria-expanded="true"][aria-haspopup="true"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Has popup)";
+}
+
+[accesskey][aria-expanded="false"][aria-haspopup="true"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Has popup)";
+}
+
+[accesskey][aria-expanded="true"][aria-selected="true"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Selected)";
+}
+
+[accesskey][aria-expanded="false"][aria-selected="false"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Not selected)";
+}
+
+[accesskey][aria-expanded="true"][aria-selected="true"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Selected)";
+}
+
+[accesskey][aria-expanded="false"][aria-selected="false"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Not selected)";
+}
+
+[accesskey][aria-haspopup="true"][aria-selected="true"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Has popup) (Selected)";
+}
+
+[accesskey][aria-haspopup="true"][aria-selected="false"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Has popup) (Not selected)";
+}
+
+[aria-expanded="true"][aria-haspopup="true"][aria-selected="true"][aria-sort="other"]:after {
+	content: " (Expanded) (Has popup) (Selected)";
+}
+
+[aria-expanded="false"][aria-haspopup="true"][aria-selected="false"][aria-sort="other"]:after {
+	content: " (Collapsed) (Has popup) (Not selected)";
+}
+
+[aria-expanded="true"][aria-haspopup="true"][aria-selected="true"][aria-sort="other"]:after {
+	content: " (Expanded) (Has popup) (Selected)";
+}
+
+[aria-expanded="false"][aria-haspopup="true"][aria-selected="false"][aria-sort="other"]:after {
+	content: " (Collapsed) (Has popup) (Not selected)";
+}
+
+[accesskey][aria-expanded="true"][aria-haspopup="true"][aria-selected="true"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Has popup) (Selected)";
+}
+
+[accesskey][aria-expanded="false"][aria-haspopup="true"][aria-selected="false"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Has popup) (Not selected)";
+}
+
+[accesskey][aria-expanded="true"][aria-haspopup="true"][aria-selected="true"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Expanded) (Has popup) (Selected)";
+}
+
+[accesskey][aria-expanded="false"][aria-haspopup="true"][aria-selected="false"][aria-sort="other"]:after {
+	content: " (Keyboard shortcut: " attr(accesskey) ") (Collapsed) (Has popup) (Not selected)";
+}

@@ -1,0 +1,1849 @@
+@charset "UTF-8";
+
+/*!
+ * HaTeMiLe to All for CSS
+ *
+ * Copyright 2016 Carlson Santana Cruz
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+[lang="aa"]:before
+, [xml\:lang="aa"]:before {
+	content: "(Begin of language: Afar) ";
+}
+
+[lang="aa"]:after
+, [xml\:lang="aa"]:after {
+	content: " (End of language: Afar)";
+}
+
+[lang="ab"]:before
+, [xml\:lang="ab"]:before {
+	content: "(Begin of language: Abkhazian) ";
+}
+
+[lang="ab"]:after
+, [xml\:lang="ab"]:after {
+	content: " (End of language: Abkhazian)";
+}
+
+[lang="ae"]:before
+, [xml\:lang="ae"]:before {
+	content: "(Begin of language: Avestan) ";
+}
+
+[lang="ae"]:after
+, [xml\:lang="ae"]:after {
+	content: " (End of language: Avestan)";
+}
+
+[lang="af"]:before
+, [xml\:lang="af"]:before {
+	content: "(Begin of language: Afrikaans) ";
+}
+
+[lang="af"]:after
+, [xml\:lang="af"]:after {
+	content: " (End of language: Afrikaans)";
+}
+
+[lang="ak"]:before
+, [xml\:lang="ak"]:before {
+	content: "(Begin of language: Akan) ";
+}
+
+[lang="ak"]:after
+, [xml\:lang="ak"]:after {
+	content: " (End of language: Akan)";
+}
+
+[lang="am"]:before
+, [xml\:lang="am"]:before {
+	content: "(Begin of language: Amharic) ";
+}
+
+[lang="am"]:after
+, [xml\:lang="am"]:after {
+	content: " (End of language: Amharic)";
+}
+
+[lang="an"]:before
+, [xml\:lang="an"]:before {
+	content: "(Begin of language: Aragonese) ";
+}
+
+[lang="an"]:after
+, [xml\:lang="an"]:after {
+	content: " (End of language: Aragonese)";
+}
+
+[lang="ar"]:before
+, [xml\:lang="ar"]:before {
+	content: "(Begin of language: Arabic) ";
+}
+
+[lang="ar"]:after
+, [xml\:lang="ar"]:after {
+	content: " (End of language: Arabic)";
+}
+
+[lang="as"]:before
+, [xml\:lang="as"]:before {
+	content: "(Begin of language: Assamese) ";
+}
+
+[lang="as"]:after
+, [xml\:lang="as"]:after {
+	content: " (End of language: Assamese)";
+}
+
+[lang="av"]:before
+, [xml\:lang="av"]:before {
+	content: "(Begin of language: Avaric) ";
+}
+
+[lang="av"]:after
+, [xml\:lang="av"]:after {
+	content: " (End of language: Avaric)";
+}
+
+[lang="ay"]:before
+, [xml\:lang="ay"]:before {
+	content: "(Begin of language: Aymara) ";
+}
+
+[lang="ay"]:after
+, [xml\:lang="ay"]:after {
+	content: " (End of language: Aymara)";
+}
+
+[lang="az"]:before
+, [xml\:lang="az"]:before {
+	content: "(Begin of language: Azerbaijani) ";
+}
+
+[lang="az"]:after
+, [xml\:lang="az"]:after {
+	content: " (End of language: Azerbaijani)";
+}
+
+[lang="ba"]:before
+, [xml\:lang="ba"]:before {
+	content: "(Begin of language: Bashkir) ";
+}
+
+[lang="ba"]:after
+, [xml\:lang="ba"]:after {
+	content: " (End of language: Bashkir)";
+}
+
+[lang="be"]:before
+, [xml\:lang="be"]:before {
+	content: "(Begin of language: Belarusian) ";
+}
+
+[lang="be"]:after
+, [xml\:lang="be"]:after {
+	content: " (End of language: Belarusian)";
+}
+
+[lang="bg"]:before
+, [xml\:lang="bg"]:before {
+	content: "(Begin of language: Bulgarian) ";
+}
+
+[lang="bg"]:after
+, [xml\:lang="bg"]:after {
+	content: " (End of language: Bulgarian)";
+}
+
+[lang="bh"]:before
+, [xml\:lang="bh"]:before {
+	content: "(Begin of language: Bihari languages) ";
+}
+
+[lang="bh"]:after
+, [xml\:lang="bh"]:after {
+	content: " (End of language: Bihari languages)";
+}
+
+[lang="bi"]:before
+, [xml\:lang="bi"]:before {
+	content: "(Begin of language: Bislama) ";
+}
+
+[lang="bi"]:after
+, [xml\:lang="bi"]:after {
+	content: " (End of language: Bislama)";
+}
+
+[lang="bm"]:before
+, [xml\:lang="bm"]:before {
+	content: "(Begin of language: Bambara) ";
+}
+
+[lang="bm"]:after
+, [xml\:lang="bm"]:after {
+	content: " (End of language: Bambara)";
+}
+
+[lang="bn"]:before
+, [xml\:lang="bn"]:before {
+	content: "(Begin of language: Bengali) ";
+}
+
+[lang="bn"]:after
+, [xml\:lang="bn"]:after {
+	content: " (End of language: Bengali)";
+}
+
+[lang="bo"]:before
+, [xml\:lang="bo"]:before {
+	content: "(Begin of language: Tibetan) ";
+}
+
+[lang="bo"]:after
+, [xml\:lang="bo"]:after {
+	content: " (End of language: Tibetan)";
+}
+
+[lang="br"]:before
+, [xml\:lang="br"]:before {
+	content: "(Begin of language: Breton) ";
+}
+
+[lang="br"]:after
+, [xml\:lang="br"]:after {
+	content: " (End of language: Breton)";
+}
+
+[lang="bs"]:before
+, [xml\:lang="bs"]:before {
+	content: "(Begin of language: Bosnian) ";
+}
+
+[lang="bs"]:after
+, [xml\:lang="bs"]:after {
+	content: " (End of language: Bosnian)";
+}
+
+[lang="ca"]:before
+, [xml\:lang="ca"]:before {
+	content: "(Begin of language: Catalan) ";
+}
+
+[lang="ca"]:after
+, [xml\:lang="ca"]:after {
+	content: " (End of language: Catalan)";
+}
+
+[lang="ce"]:before
+, [xml\:lang="ce"]:before {
+	content: "(Begin of language: Chechen) ";
+}
+
+[lang="ce"]:after
+, [xml\:lang="ce"]:after {
+	content: " (End of language: Chechen)";
+}
+
+[lang="ch"]:before
+, [xml\:lang="ch"]:before {
+	content: "(Begin of language: Chamorro) ";
+}
+
+[lang="ch"]:after
+, [xml\:lang="ch"]:after {
+	content: " (End of language: Chamorro)";
+}
+
+[lang="co"]:before
+, [xml\:lang="co"]:before {
+	content: "(Begin of language: Corsican) ";
+}
+
+[lang="co"]:after
+, [xml\:lang="co"]:after {
+	content: " (End of language: Corsican)";
+}
+
+[lang="cr"]:before
+, [xml\:lang="cr"]:before {
+	content: "(Begin of language: Cree) ";
+}
+
+[lang="cr"]:after
+, [xml\:lang="cr"]:after {
+	content: " (End of language: Cree)";
+}
+
+[lang="cs"]:before
+, [xml\:lang="cs"]:before {
+	content: "(Begin of language: Czech) ";
+}
+
+[lang="cs"]:after
+, [xml\:lang="cs"]:after {
+	content: " (End of language: Czech)";
+}
+
+[lang="cu"]:before
+, [xml\:lang="cu"]:before {
+	content: "(Begin of language: Church Slavic) ";
+}
+
+[lang="cu"]:after
+, [xml\:lang="cu"]:after {
+	content: " (End of language: Church Slavic)";
+}
+
+[lang="cv"]:before
+, [xml\:lang="cv"]:before {
+	content: "(Begin of language: Chuvash) ";
+}
+
+[lang="cv"]:after
+, [xml\:lang="cv"]:after {
+	content: " (End of language: Chuvash)";
+}
+
+[lang="cy"]:before
+, [xml\:lang="cy"]:before {
+	content: "(Begin of language: Welsh) ";
+}
+
+[lang="cy"]:after
+, [xml\:lang="cy"]:after {
+	content: " (End of language: Welsh)";
+}
+
+[lang="da"]:before
+, [xml\:lang="da"]:before {
+	content: "(Begin of language: Danish) ";
+}
+
+[lang="da"]:after
+, [xml\:lang="da"]:after {
+	content: " (End of language: Danish)";
+}
+
+[lang="de"]:before
+, [xml\:lang="de"]:before {
+	content: "(Begin of language: German) ";
+}
+
+[lang="de"]:after
+, [xml\:lang="de"]:after {
+	content: " (End of language: German)";
+}
+
+[lang="dv"]:before
+, [xml\:lang="dv"]:before {
+	content: "(Begin of language: Divehi) ";
+}
+
+[lang="dv"]:after
+, [xml\:lang="dv"]:after {
+	content: " (End of language: Divehi)";
+}
+
+[lang="dz"]:before
+, [xml\:lang="dz"]:before {
+	content: "(Begin of language: Dzongkha) ";
+}
+
+[lang="dz"]:after
+, [xml\:lang="dz"]:after {
+	content: " (End of language: Dzongkha)";
+}
+
+[lang="ee"]:before
+, [xml\:lang="ee"]:before {
+	content: "(Begin of language: Ewe) ";
+}
+
+[lang="ee"]:after
+, [xml\:lang="ee"]:after {
+	content: " (End of language: Ewe)";
+}
+
+[lang="el"]:before
+, [xml\:lang="el"]:before {
+	content: "(Begin of language: Greek) ";
+}
+
+[lang="el"]:after
+, [xml\:lang="el"]:after {
+	content: " (End of language: Greek)";
+}
+
+[lang="en"]:before
+, [xml\:lang="en"]:before {
+	content: "(Begin of language: English) ";
+}
+
+[lang="en"]:after
+, [xml\:lang="en"]:after {
+	content: " (End of language: English)";
+}
+
+[lang="eo"]:before
+, [xml\:lang="eo"]:before {
+	content: "(Begin of language: Esperanto) ";
+}
+
+[lang="eo"]:after
+, [xml\:lang="eo"]:after {
+	content: " (End of language: Esperanto)";
+}
+
+[lang="es"]:before
+, [xml\:lang="es"]:before {
+	content: "(Begin of language: Spanish) ";
+}
+
+[lang="es"]:after
+, [xml\:lang="es"]:after {
+	content: " (End of language: Spanish)";
+}
+
+[lang="et"]:before
+, [xml\:lang="et"]:before {
+	content: "(Begin of language: Estonian) ";
+}
+
+[lang="et"]:after
+, [xml\:lang="et"]:after {
+	content: " (End of language: Estonian)";
+}
+
+[lang="eu"]:before
+, [xml\:lang="eu"]:before {
+	content: "(Begin of language: Basque) ";
+}
+
+[lang="eu"]:after
+, [xml\:lang="eu"]:after {
+	content: " (End of language: Basque)";
+}
+
+[lang="fa"]:before
+, [xml\:lang="fa"]:before {
+	content: "(Begin of language: Persian) ";
+}
+
+[lang="fa"]:after
+, [xml\:lang="fa"]:after {
+	content: " (End of language: Persian)";
+}
+
+[lang="ff"]:before
+, [xml\:lang="ff"]:before {
+	content: "(Begin of language: Fulah) ";
+}
+
+[lang="ff"]:after
+, [xml\:lang="ff"]:after {
+	content: " (End of language: Fulah)";
+}
+
+[lang="fi"]:before
+, [xml\:lang="fi"]:before {
+	content: "(Begin of language: Finnish) ";
+}
+
+[lang="fi"]:after
+, [xml\:lang="fi"]:after {
+	content: " (End of language: Finnish)";
+}
+
+[lang="fj"]:before
+, [xml\:lang="fj"]:before {
+	content: "(Begin of language: Fijian) ";
+}
+
+[lang="fj"]:after
+, [xml\:lang="fj"]:after {
+	content: " (End of language: Fijian)";
+}
+
+[lang="fo"]:before
+, [xml\:lang="fo"]:before {
+	content: "(Begin of language: Faroese) ";
+}
+
+[lang="fo"]:after
+, [xml\:lang="fo"]:after {
+	content: " (End of language: Faroese)";
+}
+
+[lang="fr"]:before
+, [xml\:lang="fr"]:before {
+	content: "(Begin of language: French) ";
+}
+
+[lang="fr"]:after
+, [xml\:lang="fr"]:after {
+	content: " (End of language: French)";
+}
+
+[lang="fy"]:before
+, [xml\:lang="fy"]:before {
+	content: "(Begin of language: Western Frisian) ";
+}
+
+[lang="fy"]:after
+, [xml\:lang="fy"]:after {
+	content: " (End of language: Western Frisian)";
+}
+
+[lang="ga"]:before
+, [xml\:lang="ga"]:before {
+	content: "(Begin of language: Irish) ";
+}
+
+[lang="ga"]:after
+, [xml\:lang="ga"]:after {
+	content: " (End of language: Irish)";
+}
+
+[lang="gd"]:before
+, [xml\:lang="gd"]:before {
+	content: "(Begin of language: Gaelic) ";
+}
+
+[lang="gd"]:after
+, [xml\:lang="gd"]:after {
+	content: " (End of language: Gaelic)";
+}
+
+[lang="gl"]:before
+, [xml\:lang="gl"]:before {
+	content: "(Begin of language: Galician) ";
+}
+
+[lang="gl"]:after
+, [xml\:lang="gl"]:after {
+	content: " (End of language: Galician)";
+}
+
+[lang="gn"]:before
+, [xml\:lang="gn"]:before {
+	content: "(Begin of language: Guarani) ";
+}
+
+[lang="gn"]:after
+, [xml\:lang="gn"]:after {
+	content: " (End of language: Guarani)";
+}
+
+[lang="gu"]:before
+, [xml\:lang="gu"]:before {
+	content: "(Begin of language: Gujarati) ";
+}
+
+[lang="gu"]:after
+, [xml\:lang="gu"]:after {
+	content: " (End of language: Gujarati)";
+}
+
+[lang="gv"]:before
+, [xml\:lang="gv"]:before {
+	content: "(Begin of language: Manx) ";
+}
+
+[lang="gv"]:after
+, [xml\:lang="gv"]:after {
+	content: " (End of language: Manx)";
+}
+
+[lang="ha"]:before
+, [xml\:lang="ha"]:before {
+	content: "(Begin of language: Hausa) ";
+}
+
+[lang="ha"]:after
+, [xml\:lang="ha"]:after {
+	content: " (End of language: Hausa)";
+}
+
+[lang="he"]:before
+, [xml\:lang="he"]:before {
+	content: "(Begin of language: Hebrew) ";
+}
+
+[lang="he"]:after
+, [xml\:lang="he"]:after {
+	content: " (End of language: Hebrew)";
+}
+
+[lang="hi"]:before
+, [xml\:lang="hi"]:before {
+	content: "(Begin of language: Hindi) ";
+}
+
+[lang="hi"]:after
+, [xml\:lang="hi"]:after {
+	content: " (End of language: Hindi)";
+}
+
+[lang="ho"]:before
+, [xml\:lang="ho"]:before {
+	content: "(Begin of language: Hiri Motu) ";
+}
+
+[lang="ho"]:after
+, [xml\:lang="ho"]:after {
+	content: " (End of language: Hiri Motu)";
+}
+
+[lang="hr"]:before
+, [xml\:lang="hr"]:before {
+	content: "(Begin of language: Croatian) ";
+}
+
+[lang="hr"]:after
+, [xml\:lang="hr"]:after {
+	content: " (End of language: Croatian)";
+}
+
+[lang="ht"]:before
+, [xml\:lang="ht"]:before {
+	content: "(Begin of language: Haitian) ";
+}
+
+[lang="ht"]:after
+, [xml\:lang="ht"]:after {
+	content: " (End of language: Haitian)";
+}
+
+[lang="hu"]:before
+, [xml\:lang="hu"]:before {
+	content: "(Begin of language: Hungarian) ";
+}
+
+[lang="hu"]:after
+, [xml\:lang="hu"]:after {
+	content: " (End of language: Hungarian)";
+}
+
+[lang="hy"]:before
+, [xml\:lang="hy"]:before {
+	content: "(Begin of language: Armenian) ";
+}
+
+[lang="hy"]:after
+, [xml\:lang="hy"]:after {
+	content: " (End of language: Armenian)";
+}
+
+[lang="hz"]:before
+, [xml\:lang="hz"]:before {
+	content: "(Begin of language: Herero) ";
+}
+
+[lang="hz"]:after
+, [xml\:lang="hz"]:after {
+	content: " (End of language: Herero)";
+}
+
+[lang="ia"]:before
+, [xml\:lang="ia"]:before {
+	content: "(Begin of language: Interlingua) ";
+}
+
+[lang="ia"]:after
+, [xml\:lang="ia"]:after {
+	content: " (End of language: Interlingua)";
+}
+
+[lang="id"]:before
+, [xml\:lang="id"]:before {
+	content: "(Begin of language: Indonesian) ";
+}
+
+[lang="id"]:after
+, [xml\:lang="id"]:after {
+	content: " (End of language: Indonesian)";
+}
+
+[lang="ie"]:before
+, [xml\:lang="ie"]:before {
+	content: "(Begin of language: Interlingue) ";
+}
+
+[lang="ie"]:after
+, [xml\:lang="ie"]:after {
+	content: " (End of language: Interlingue)";
+}
+
+[lang="ig"]:before
+, [xml\:lang="ig"]:before {
+	content: "(Begin of language: Igbo) ";
+}
+
+[lang="ig"]:after
+, [xml\:lang="ig"]:after {
+	content: " (End of language: Igbo)";
+}
+
+[lang="ii"]:before
+, [xml\:lang="ii"]:before {
+	content: "(Begin of language: Sichuan Yi) ";
+}
+
+[lang="ii"]:after
+, [xml\:lang="ii"]:after {
+	content: " (End of language: Sichuan Yi)";
+}
+
+[lang="ik"]:before
+, [xml\:lang="ik"]:before {
+	content: "(Begin of language: Inupiaq) ";
+}
+
+[lang="ik"]:after
+, [xml\:lang="ik"]:after {
+	content: " (End of language: Inupiaq)";
+}
+
+[lang="io"]:before
+, [xml\:lang="io"]:before {
+	content: "(Begin of language: Ido) ";
+}
+
+[lang="io"]:after
+, [xml\:lang="io"]:after {
+	content: " (End of language: Ido)";
+}
+
+[lang="is"]:before
+, [xml\:lang="is"]:before {
+	content: "(Begin of language: Icelandic) ";
+}
+
+[lang="is"]:after
+, [xml\:lang="is"]:after {
+	content: " (End of language: Icelandic)";
+}
+
+[lang="it"]:before
+, [xml\:lang="it"]:before {
+	content: "(Begin of language: Italian) ";
+}
+
+[lang="it"]:after
+, [xml\:lang="it"]:after {
+	content: " (End of language: Italian)";
+}
+
+[lang="iu"]:before
+, [xml\:lang="iu"]:before {
+	content: "(Begin of language: Inuktitut) ";
+}
+
+[lang="iu"]:after
+, [xml\:lang="iu"]:after {
+	content: " (End of language: Inuktitut)";
+}
+
+[lang="ja"]:before
+, [xml\:lang="ja"]:before {
+	content: "(Begin of language: Japanese) ";
+}
+
+[lang="ja"]:after
+, [xml\:lang="ja"]:after {
+	content: " (End of language: Japanese)";
+}
+
+[lang="jv"]:before
+, [xml\:lang="jv"]:before {
+	content: "(Begin of language: Javanese) ";
+}
+
+[lang="jv"]:after
+, [xml\:lang="jv"]:after {
+	content: " (End of language: Javanese)";
+}
+
+[lang="ka"]:before
+, [xml\:lang="ka"]:before {
+	content: "(Begin of language: Georgian) ";
+}
+
+[lang="ka"]:after
+, [xml\:lang="ka"]:after {
+	content: " (End of language: Georgian)";
+}
+
+[lang="kg"]:before
+, [xml\:lang="kg"]:before {
+	content: "(Begin of language: Kongo) ";
+}
+
+[lang="kg"]:after
+, [xml\:lang="kg"]:after {
+	content: " (End of language: Kongo)";
+}
+
+[lang="ki"]:before
+, [xml\:lang="ki"]:before {
+	content: "(Begin of language: Kikuyu) ";
+}
+
+[lang="ki"]:after
+, [xml\:lang="ki"]:after {
+	content: " (End of language: Kikuyu)";
+}
+
+[lang="kj"]:before
+, [xml\:lang="kj"]:before {
+	content: "(Begin of language: Kuanyama) ";
+}
+
+[lang="kj"]:after
+, [xml\:lang="kj"]:after {
+	content: " (End of language: Kuanyama)";
+}
+
+[lang="kk"]:before
+, [xml\:lang="kk"]:before {
+	content: "(Begin of language: Kazakh) ";
+}
+
+[lang="kk"]:after
+, [xml\:lang="kk"]:after {
+	content: " (End of language: Kazakh)";
+}
+
+[lang="kl"]:before
+, [xml\:lang="kl"]:before {
+	content: "(Begin of language: Kalaallisut) ";
+}
+
+[lang="kl"]:after
+, [xml\:lang="kl"]:after {
+	content: " (End of language: Kalaallisut)";
+}
+
+[lang="km"]:before
+, [xml\:lang="km"]:before {
+	content: "(Begin of language: Central Khmer) ";
+}
+
+[lang="km"]:after
+, [xml\:lang="km"]:after {
+	content: " (End of language: Central Khmer)";
+}
+
+[lang="kn"]:before
+, [xml\:lang="kn"]:before {
+	content: "(Begin of language: Kannada) ";
+}
+
+[lang="kn"]:after
+, [xml\:lang="kn"]:after {
+	content: " (End of language: Kannada)";
+}
+
+[lang="ko"]:before
+, [xml\:lang="ko"]:before {
+	content: "(Begin of language: Korean) ";
+}
+
+[lang="ko"]:after
+, [xml\:lang="ko"]:after {
+	content: " (End of language: Korean)";
+}
+
+[lang="kr"]:before
+, [xml\:lang="kr"]:before {
+	content: "(Begin of language: Kanuri) ";
+}
+
+[lang="kr"]:after
+, [xml\:lang="kr"]:after {
+	content: " (End of language: Kanuri)";
+}
+
+[lang="ks"]:before
+, [xml\:lang="ks"]:before {
+	content: "(Begin of language: Kashmiri) ";
+}
+
+[lang="ks"]:after
+, [xml\:lang="ks"]:after {
+	content: " (End of language: Kashmiri)";
+}
+
+[lang="ku"]:before
+, [xml\:lang="ku"]:before {
+	content: "(Begin of language: Kurdish) ";
+}
+
+[lang="ku"]:after
+, [xml\:lang="ku"]:after {
+	content: " (End of language: Kurdish)";
+}
+
+[lang="kv"]:before
+, [xml\:lang="kv"]:before {
+	content: "(Begin of language: Komi) ";
+}
+
+[lang="kv"]:after
+, [xml\:lang="kv"]:after {
+	content: " (End of language: Komi)";
+}
+
+[lang="kw"]:before
+, [xml\:lang="kw"]:before {
+	content: "(Begin of language: Cornish) ";
+}
+
+[lang="kw"]:after
+, [xml\:lang="kw"]:after {
+	content: " (End of language: Cornish)";
+}
+
+[lang="ky"]:before
+, [xml\:lang="ky"]:before {
+	content: "(Begin of language: Kirghiz) ";
+}
+
+[lang="ky"]:after
+, [xml\:lang="ky"]:after {
+	content: " (End of language: Kirghiz)";
+}
+
+[lang="la"]:before
+, [xml\:lang="la"]:before {
+	content: "(Begin of language: Latin) ";
+}
+
+[lang="la"]:after
+, [xml\:lang="la"]:after {
+	content: " (End of language: Latin)";
+}
+
+[lang="lb"]:before
+, [xml\:lang="lb"]:before {
+	content: "(Begin of language: Luxembourgish) ";
+}
+
+[lang="lb"]:after
+, [xml\:lang="lb"]:after {
+	content: " (End of language: Luxembourgish)";
+}
+
+[lang="lg"]:before
+, [xml\:lang="lg"]:before {
+	content: "(Begin of language: Ganda) ";
+}
+
+[lang="lg"]:after
+, [xml\:lang="lg"]:after {
+	content: " (End of language: Ganda)";
+}
+
+[lang="li"]:before
+, [xml\:lang="li"]:before {
+	content: "(Begin of language: Limburgan) ";
+}
+
+[lang="li"]:after
+, [xml\:lang="li"]:after {
+	content: " (End of language: Limburgan)";
+}
+
+[lang="ln"]:before
+, [xml\:lang="ln"]:before {
+	content: "(Begin of language: Lingala) ";
+}
+
+[lang="ln"]:after
+, [xml\:lang="ln"]:after {
+	content: " (End of language: Lingala)";
+}
+
+[lang="lo"]:before
+, [xml\:lang="lo"]:before {
+	content: "(Begin of language: Lao) ";
+}
+
+[lang="lo"]:after
+, [xml\:lang="lo"]:after {
+	content: " (End of language: Lao)";
+}
+
+[lang="lt"]:before
+, [xml\:lang="lt"]:before {
+	content: "(Begin of language: Lithuanian) ";
+}
+
+[lang="lt"]:after
+, [xml\:lang="lt"]:after {
+	content: " (End of language: Lithuanian)";
+}
+
+[lang="lu"]:before
+, [xml\:lang="lu"]:before {
+	content: "(Begin of language: Luba-Katanga) ";
+}
+
+[lang="lu"]:after
+, [xml\:lang="lu"]:after {
+	content: " (End of language: Luba-Katanga)";
+}
+
+[lang="lv"]:before
+, [xml\:lang="lv"]:before {
+	content: "(Begin of language: Latvian) ";
+}
+
+[lang="lv"]:after
+, [xml\:lang="lv"]:after {
+	content: " (End of language: Latvian)";
+}
+
+[lang="mg"]:before
+, [xml\:lang="mg"]:before {
+	content: "(Begin of language: Malagasy) ";
+}
+
+[lang="mg"]:after
+, [xml\:lang="mg"]:after {
+	content: " (End of language: Malagasy)";
+}
+
+[lang="mh"]:before
+, [xml\:lang="mh"]:before {
+	content: "(Begin of language: Marshallese) ";
+}
+
+[lang="mh"]:after
+, [xml\:lang="mh"]:after {
+	content: " (End of language: Marshallese)";
+}
+
+[lang="mi"]:before
+, [xml\:lang="mi"]:before {
+	content: "(Begin of language: Maori) ";
+}
+
+[lang="mi"]:after
+, [xml\:lang="mi"]:after {
+	content: " (End of language: Maori)";
+}
+
+[lang="mk"]:before
+, [xml\:lang="mk"]:before {
+	content: "(Begin of language: Macedonian) ";
+}
+
+[lang="mk"]:after
+, [xml\:lang="mk"]:after {
+	content: " (End of language: Macedonian)";
+}
+
+[lang="ml"]:before
+, [xml\:lang="ml"]:before {
+	content: "(Begin of language: Malayalam) ";
+}
+
+[lang="ml"]:after
+, [xml\:lang="ml"]:after {
+	content: " (End of language: Malayalam)";
+}
+
+[lang="mn"]:before
+, [xml\:lang="mn"]:before {
+	content: "(Begin of language: Mongolian) ";
+}
+
+[lang="mn"]:after
+, [xml\:lang="mn"]:after {
+	content: " (End of language: Mongolian)";
+}
+
+[lang="mr"]:before
+, [xml\:lang="mr"]:before {
+	content: "(Begin of language: Marathi) ";
+}
+
+[lang="mr"]:after
+, [xml\:lang="mr"]:after {
+	content: " (End of language: Marathi)";
+}
+
+[lang="ms"]:before
+, [xml\:lang="ms"]:before {
+	content: "(Begin of language: Malay) ";
+}
+
+[lang="ms"]:after
+, [xml\:lang="ms"]:after {
+	content: " (End of language: Malay)";
+}
+
+[lang="mt"]:before
+, [xml\:lang="mt"]:before {
+	content: "(Begin of language: Maltese) ";
+}
+
+[lang="mt"]:after
+, [xml\:lang="mt"]:after {
+	content: " (End of language: Maltese)";
+}
+
+[lang="my"]:before
+, [xml\:lang="my"]:before {
+	content: "(Begin of language: Burmese) ";
+}
+
+[lang="my"]:after
+, [xml\:lang="my"]:after {
+	content: " (End of language: Burmese)";
+}
+
+[lang="na"]:before
+, [xml\:lang="na"]:before {
+	content: "(Begin of language: Nauru) ";
+}
+
+[lang="na"]:after
+, [xml\:lang="na"]:after {
+	content: " (End of language: Nauru)";
+}
+
+[lang="nb"]:before
+, [xml\:lang="nb"]:before {
+	content: "(Begin of language: Bokmål Norwegian) ";
+}
+
+[lang="nb"]:after
+, [xml\:lang="nb"]:after {
+	content: " (End of language: Bokmål Norwegian)";
+}
+
+[lang="nd"]:before
+, [xml\:lang="nd"]:before {
+	content: "(Begin of language: Ndebele North) ";
+}
+
+[lang="nd"]:after
+, [xml\:lang="nd"]:after {
+	content: " (End of language: Ndebele North)";
+}
+
+[lang="ne"]:before
+, [xml\:lang="ne"]:before {
+	content: "(Begin of language: Nepali) ";
+}
+
+[lang="ne"]:after
+, [xml\:lang="ne"]:after {
+	content: " (End of language: Nepali)";
+}
+
+[lang="ng"]:before
+, [xml\:lang="ng"]:before {
+	content: "(Begin of language: Ndonga) ";
+}
+
+[lang="ng"]:after
+, [xml\:lang="ng"]:after {
+	content: " (End of language: Ndonga)";
+}
+
+[lang="nl"]:before
+, [xml\:lang="nl"]:before {
+	content: "(Begin of language: Dutch) ";
+}
+
+[lang="nl"]:after
+, [xml\:lang="nl"]:after {
+	content: " (End of language: Dutch)";
+}
+
+[lang="nn"]:before
+, [xml\:lang="nn"]:before {
+	content: "(Begin of language: Norwegian Nynorsk) ";
+}
+
+[lang="nn"]:after
+, [xml\:lang="nn"]:after {
+	content: " (End of language: Norwegian Nynorsk)";
+}
+
+[lang="no"]:before
+, [xml\:lang="no"]:before {
+	content: "(Begin of language: Norwegian) ";
+}
+
+[lang="no"]:after
+, [xml\:lang="no"]:after {
+	content: " (End of language: Norwegian)";
+}
+
+[lang="nr"]:before
+, [xml\:lang="nr"]:before {
+	content: "(Begin of language: Ndebele South) ";
+}
+
+[lang="nr"]:after
+, [xml\:lang="nr"]:after {
+	content: " (End of language: Ndebele South)";
+}
+
+[lang="nv"]:before
+, [xml\:lang="nv"]:before {
+	content: "(Begin of language: Navajo) ";
+}
+
+[lang="nv"]:after
+, [xml\:lang="nv"]:after {
+	content: " (End of language: Navajo)";
+}
+
+[lang="ny"]:before
+, [xml\:lang="ny"]:before {
+	content: "(Begin of language: Chichewa) ";
+}
+
+[lang="ny"]:after
+, [xml\:lang="ny"]:after {
+	content: " (End of language: Chichewa)";
+}
+
+[lang="oc"]:before
+, [xml\:lang="oc"]:before {
+	content: "(Begin of language: Occitan) ";
+}
+
+[lang="oc"]:after
+, [xml\:lang="oc"]:after {
+	content: " (End of language: Occitan)";
+}
+
+[lang="oj"]:before
+, [xml\:lang="oj"]:before {
+	content: "(Begin of language: Ojibwa) ";
+}
+
+[lang="oj"]:after
+, [xml\:lang="oj"]:after {
+	content: " (End of language: Ojibwa)";
+}
+
+[lang="om"]:before
+, [xml\:lang="om"]:before {
+	content: "(Begin of language: Oromo) ";
+}
+
+[lang="om"]:after
+, [xml\:lang="om"]:after {
+	content: " (End of language: Oromo)";
+}
+
+[lang="or"]:before
+, [xml\:lang="or"]:before {
+	content: "(Begin of language: Oriya) ";
+}
+
+[lang="or"]:after
+, [xml\:lang="or"]:after {
+	content: " (End of language: Oriya)";
+}
+
+[lang="os"]:before
+, [xml\:lang="os"]:before {
+	content: "(Begin of language: Ossetian) ";
+}
+
+[lang="os"]:after
+, [xml\:lang="os"]:after {
+	content: " (End of language: Ossetian)";
+}
+
+[lang="pa"]:before
+, [xml\:lang="pa"]:before {
+	content: "(Begin of language: Panjabi) ";
+}
+
+[lang="pa"]:after
+, [xml\:lang="pa"]:after {
+	content: " (End of language: Panjabi)";
+}
+
+[lang="pi"]:before
+, [xml\:lang="pi"]:before {
+	content: "(Begin of language: Pali) ";
+}
+
+[lang="pi"]:after
+, [xml\:lang="pi"]:after {
+	content: " (End of language: Pali)";
+}
+
+[lang="pl"]:before
+, [xml\:lang="pl"]:before {
+	content: "(Begin of language: Polish) ";
+}
+
+[lang="pl"]:after
+, [xml\:lang="pl"]:after {
+	content: " (End of language: Polish)";
+}
+
+[lang="ps"]:before
+, [xml\:lang="ps"]:before {
+	content: "(Begin of language: Pushto) ";
+}
+
+[lang="ps"]:after
+, [xml\:lang="ps"]:after {
+	content: " (End of language: Pushto)";
+}
+
+[lang="pt"]:before
+, [xml\:lang="pt"]:before {
+	content: "(Begin of language: Portuguese) ";
+}
+
+[lang="pt"]:after
+, [xml\:lang="pt"]:after {
+	content: " (End of language: Portuguese)";
+}
+
+[lang="qu"]:before
+, [xml\:lang="qu"]:before {
+	content: "(Begin of language: Quechua) ";
+}
+
+[lang="qu"]:after
+, [xml\:lang="qu"]:after {
+	content: " (End of language: Quechua)";
+}
+
+[lang="rm"]:before
+, [xml\:lang="rm"]:before {
+	content: "(Begin of language: Romansh) ";
+}
+
+[lang="rm"]:after
+, [xml\:lang="rm"]:after {
+	content: " (End of language: Romansh)";
+}
+
+[lang="rn"]:before
+, [xml\:lang="rn"]:before {
+	content: "(Begin of language: Rundi) ";
+}
+
+[lang="rn"]:after
+, [xml\:lang="rn"]:after {
+	content: " (End of language: Rundi)";
+}
+
+[lang="ro"]:before
+, [xml\:lang="ro"]:before {
+	content: "(Begin of language: Romanian) ";
+}
+
+[lang="ro"]:after
+, [xml\:lang="ro"]:after {
+	content: " (End of language: Romanian)";
+}
+
+[lang="ru"]:before
+, [xml\:lang="ru"]:before {
+	content: "(Begin of language: Russian) ";
+}
+
+[lang="ru"]:after
+, [xml\:lang="ru"]:after {
+	content: " (End of language: Russian)";
+}
+
+[lang="rw"]:before
+, [xml\:lang="rw"]:before {
+	content: "(Begin of language: Kinyarwanda) ";
+}
+
+[lang="rw"]:after
+, [xml\:lang="rw"]:after {
+	content: " (End of language: Kinyarwanda)";
+}
+
+[lang="sa"]:before
+, [xml\:lang="sa"]:before {
+	content: "(Begin of language: Sanskrit) ";
+}
+
+[lang="sa"]:after
+, [xml\:lang="sa"]:after {
+	content: " (End of language: Sanskrit)";
+}
+
+[lang="sc"]:before
+, [xml\:lang="sc"]:before {
+	content: "(Begin of language: Sardinian) ";
+}
+
+[lang="sc"]:after
+, [xml\:lang="sc"]:after {
+	content: " (End of language: Sardinian)";
+}
+
+[lang="sd"]:before
+, [xml\:lang="sd"]:before {
+	content: "(Begin of language: Sindhi) ";
+}
+
+[lang="sd"]:after
+, [xml\:lang="sd"]:after {
+	content: " (End of language: Sindhi)";
+}
+
+[lang="se"]:before
+, [xml\:lang="se"]:before {
+	content: "(Begin of language: Northern Sami) ";
+}
+
+[lang="se"]:after
+, [xml\:lang="se"]:after {
+	content: " (End of language: Northern Sami)";
+}
+
+[lang="sg"]:before
+, [xml\:lang="sg"]:before {
+	content: "(Begin of language: Sango) ";
+}
+
+[lang="sg"]:after
+, [xml\:lang="sg"]:after {
+	content: " (End of language: Sango)";
+}
+
+[lang="si"]:before
+, [xml\:lang="si"]:before {
+	content: "(Begin of language: Sinhala) ";
+}
+
+[lang="si"]:after
+, [xml\:lang="si"]:after {
+	content: " (End of language: Sinhala)";
+}
+
+[lang="sk"]:before
+, [xml\:lang="sk"]:before {
+	content: "(Begin of language: Slovak) ";
+}
+
+[lang="sk"]:after
+, [xml\:lang="sk"]:after {
+	content: " (End of language: Slovak)";
+}
+
+[lang="sl"]:before
+, [xml\:lang="sl"]:before {
+	content: "(Begin of language: Slovenian) ";
+}
+
+[lang="sl"]:after
+, [xml\:lang="sl"]:after {
+	content: " (End of language: Slovenian)";
+}
+
+[lang="sm"]:before
+, [xml\:lang="sm"]:before {
+	content: "(Begin of language: Samoan) ";
+}
+
+[lang="sm"]:after
+, [xml\:lang="sm"]:after {
+	content: " (End of language: Samoan)";
+}
+
+[lang="sn"]:before
+, [xml\:lang="sn"]:before {
+	content: "(Begin of language: Shona) ";
+}
+
+[lang="sn"]:after
+, [xml\:lang="sn"]:after {
+	content: " (End of language: Shona)";
+}
+
+[lang="so"]:before
+, [xml\:lang="so"]:before {
+	content: "(Begin of language: Somali) ";
+}
+
+[lang="so"]:after
+, [xml\:lang="so"]:after {
+	content: " (End of language: Somali)";
+}
+
+[lang="sq"]:before
+, [xml\:lang="sq"]:before {
+	content: "(Begin of language: Albanian) ";
+}
+
+[lang="sq"]:after
+, [xml\:lang="sq"]:after {
+	content: " (End of language: Albanian)";
+}
+
+[lang="sr"]:before
+, [xml\:lang="sr"]:before {
+	content: "(Begin of language: Serbian) ";
+}
+
+[lang="sr"]:after
+, [xml\:lang="sr"]:after {
+	content: " (End of language: Serbian)";
+}
+
+[lang="ss"]:before
+, [xml\:lang="ss"]:before {
+	content: "(Begin of language: Swati) ";
+}
+
+[lang="ss"]:after
+, [xml\:lang="ss"]:after {
+	content: " (End of language: Swati)";
+}
+
+[lang="st"]:before
+, [xml\:lang="st"]:before {
+	content: "(Begin of language: Sotho Southern) ";
+}
+
+[lang="st"]:after
+, [xml\:lang="st"]:after {
+	content: " (End of language: Sotho Southern)";
+}
+
+[lang="su"]:before
+, [xml\:lang="su"]:before {
+	content: "(Begin of language: Sundanese) ";
+}
+
+[lang="su"]:after
+, [xml\:lang="su"]:after {
+	content: " (End of language: Sundanese)";
+}
+
+[lang="sv"]:before
+, [xml\:lang="sv"]:before {
+	content: "(Begin of language: Swedish) ";
+}
+
+[lang="sv"]:after
+, [xml\:lang="sv"]:after {
+	content: " (End of language: Swedish)";
+}
+
+[lang="sw"]:before
+, [xml\:lang="sw"]:before {
+	content: "(Begin of language: Swahili) ";
+}
+
+[lang="sw"]:after
+, [xml\:lang="sw"]:after {
+	content: " (End of language: Swahili)";
+}
+
+[lang="ta"]:before
+, [xml\:lang="ta"]:before {
+	content: "(Begin of language: Tamil) ";
+}
+
+[lang="ta"]:after
+, [xml\:lang="ta"]:after {
+	content: " (End of language: Tamil)";
+}
+
+[lang="te"]:before
+, [xml\:lang="te"]:before {
+	content: "(Begin of language: Telugu) ";
+}
+
+[lang="te"]:after
+, [xml\:lang="te"]:after {
+	content: " (End of language: Telugu)";
+}
+
+[lang="tg"]:before
+, [xml\:lang="tg"]:before {
+	content: "(Begin of language: Tajik) ";
+}
+
+[lang="tg"]:after
+, [xml\:lang="tg"]:after {
+	content: " (End of language: Tajik)";
+}
+
+[lang="th"]:before
+, [xml\:lang="th"]:before {
+	content: "(Begin of language: Thai) ";
+}
+
+[lang="th"]:after
+, [xml\:lang="th"]:after {
+	content: " (End of language: Thai)";
+}
+
+[lang="ti"]:before
+, [xml\:lang="ti"]:before {
+	content: "(Begin of language: Tigrinya) ";
+}
+
+[lang="ti"]:after
+, [xml\:lang="ti"]:after {
+	content: " (End of language: Tigrinya)";
+}
+
+[lang="tk"]:before
+, [xml\:lang="tk"]:before {
+	content: "(Begin of language: Turkmen) ";
+}
+
+[lang="tk"]:after
+, [xml\:lang="tk"]:after {
+	content: " (End of language: Turkmen)";
+}
+
+[lang="tl"]:before
+, [xml\:lang="tl"]:before {
+	content: "(Begin of language: Tagalog) ";
+}
+
+[lang="tl"]:after
+, [xml\:lang="tl"]:after {
+	content: " (End of language: Tagalog)";
+}
+
+[lang="tn"]:before
+, [xml\:lang="tn"]:before {
+	content: "(Begin of language: Tswana) ";
+}
+
+[lang="tn"]:after
+, [xml\:lang="tn"]:after {
+	content: " (End of language: Tswana)";
+}
+
+[lang="to"]:before
+, [xml\:lang="to"]:before {
+	content: "(Begin of language: Tonga) ";
+}
+
+[lang="to"]:after
+, [xml\:lang="to"]:after {
+	content: " (End of language: Tonga)";
+}
+
+[lang="tr"]:before
+, [xml\:lang="tr"]:before {
+	content: "(Begin of language: Turkish) ";
+}
+
+[lang="tr"]:after
+, [xml\:lang="tr"]:after {
+	content: " (End of language: Turkish)";
+}
+
+[lang="ts"]:before
+, [xml\:lang="ts"]:before {
+	content: "(Begin of language: Tsonga) ";
+}
+
+[lang="ts"]:after
+, [xml\:lang="ts"]:after {
+	content: " (End of language: Tsonga)";
+}
+
+[lang="tt"]:before
+, [xml\:lang="tt"]:before {
+	content: "(Begin of language: Tatar) ";
+}
+
+[lang="tt"]:after
+, [xml\:lang="tt"]:after {
+	content: " (End of language: Tatar)";
+}
+
+[lang="tw"]:before
+, [xml\:lang="tw"]:before {
+	content: "(Begin of language: Twi) ";
+}
+
+[lang="tw"]:after
+, [xml\:lang="tw"]:after {
+	content: " (End of language: Twi)";
+}
+
+[lang="ty"]:before
+, [xml\:lang="ty"]:before {
+	content: "(Begin of language: Tahitian) ";
+}
+
+[lang="ty"]:after
+, [xml\:lang="ty"]:after {
+	content: " (End of language: Tahitian)";
+}
+
+[lang="ug"]:before
+, [xml\:lang="ug"]:before {
+	content: "(Begin of language: Uighur) ";
+}
+
+[lang="ug"]:after
+, [xml\:lang="ug"]:after {
+	content: " (End of language: Uighur)";
+}
+
+[lang="uk"]:before
+, [xml\:lang="uk"]:before {
+	content: "(Begin of language: Ukrainian) ";
+}
+
+[lang="uk"]:after
+, [xml\:lang="uk"]:after {
+	content: " (End of language: Ukrainian)";
+}
+
+[lang="ur"]:before
+, [xml\:lang="ur"]:before {
+	content: "(Begin of language: Urdu) ";
+}
+
+[lang="ur"]:after
+, [xml\:lang="ur"]:after {
+	content: " (End of language: Urdu)";
+}
+
+[lang="uz"]:before
+, [xml\:lang="uz"]:before {
+	content: "(Begin of language: Uzbek) ";
+}
+
+[lang="uz"]:after
+, [xml\:lang="uz"]:after {
+	content: " (End of language: Uzbek)";
+}
+
+[lang="ve"]:before
+, [xml\:lang="ve"]:before {
+	content: "(Begin of language: Venda) ";
+}
+
+[lang="ve"]:after
+, [xml\:lang="ve"]:after {
+	content: " (End of language: Venda)";
+}
+
+[lang="vi"]:before
+, [xml\:lang="vi"]:before {
+	content: "(Begin of language: Vietnamese) ";
+}
+
+[lang="vi"]:after
+, [xml\:lang="vi"]:after {
+	content: " (End of language: Vietnamese)";
+}
+
+[lang="vo"]:before
+, [xml\:lang="vo"]:before {
+	content: "(Begin of language: Volapük) ";
+}
+
+[lang="vo"]:after
+, [xml\:lang="vo"]:after {
+	content: " (End of language: Volapük)";
+}
+
+[lang="wa"]:before
+, [xml\:lang="wa"]:before {
+	content: "(Begin of language: Walloon) ";
+}
+
+[lang="wa"]:after
+, [xml\:lang="wa"]:after {
+	content: " (End of language: Walloon)";
+}
+
+[lang="wo"]:before
+, [xml\:lang="wo"]:before {
+	content: "(Begin of language: Wolof) ";
+}
+
+[lang="wo"]:after
+, [xml\:lang="wo"]:after {
+	content: " (End of language: Wolof)";
+}
+
+[lang="xh"]:before
+, [xml\:lang="xh"]:before {
+	content: "(Begin of language: Xhosa) ";
+}
+
+[lang="xh"]:after
+, [xml\:lang="xh"]:after {
+	content: " (End of language: Xhosa)";
+}
+
+[lang="yi"]:before
+, [xml\:lang="yi"]:before {
+	content: "(Begin of language: Yiddish) ";
+}
+
+[lang="yi"]:after
+, [xml\:lang="yi"]:after {
+	content: " (End of language: Yiddish)";
+}
+
+[lang="yo"]:before
+, [xml\:lang="yo"]:before {
+	content: "(Begin of language: Yoruba) ";
+}
+
+[lang="yo"]:after
+, [xml\:lang="yo"]:after {
+	content: " (End of language: Yoruba)";
+}
+
+[lang="za"]:before
+, [xml\:lang="za"]:before {
+	content: "(Begin of language: Zhuang) ";
+}
+
+[lang="za"]:after
+, [xml\:lang="za"]:after {
+	content: " (End of language: Zhuang)";
+}
+
+[lang="zh"]:before
+, [xml\:lang="zh"]:before {
+	content: "(Begin of language: Chinese) ";
+}
+
+[lang="zh"]:after
+, [xml\:lang="zh"]:after {
+	content: " (End of language: Chinese)";
+}
+
+[lang="zu"]:before
+, [xml\:lang="zu"]:before {
+	content: "(Begin of language: Zulu) ";
+}
+
+[lang="zu"]:after
+, [xml\:lang="zu"]:after {
+	content: " (End of language: Zulu)";
+}

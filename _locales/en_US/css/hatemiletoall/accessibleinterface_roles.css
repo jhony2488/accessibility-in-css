@@ -1,0 +1,489 @@
+@charset "UTF-8";
+
+/*!
+ * HaTeMiLe to All for CSS
+ *
+ * Copyright 2016 Carlson Santana Cruz
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+[role="alert"]:before {
+	content: "(Begin of alert) ";
+}
+
+[role="alert"]:after {
+	content: " (End of alert)";
+}
+
+[role="alertdialog"]:before {
+	content: "(Begin of alert dialog) ";
+}
+
+[role="alertdialog"]:after {
+	content: " (End of alert dialog)";
+}
+
+[role="application"]:before {
+	content: "(Begin of application) ";
+}
+
+[role="application"]:after {
+	content: " (End of application)";
+}
+
+[role="article"]:before {
+	content: "(Begin of article) ";
+}
+
+[role="article"]:after {
+	content: " (End of article)";
+}
+
+[role="banner"]:before {
+	content: "(Begin of banner) ";
+}
+
+[role="banner"]:after {
+	content: " (End of banner)";
+}
+
+[role="button"]:before {
+	content: "(Begin of button) ";
+}
+
+[role="button"]:after {
+	content: " (End of button)";
+}
+
+[role="checkbox"]:before {
+	content: "(Begin of checkbox) ";
+}
+
+[role="checkbox"]:after {
+	content: " (End of checkbox)";
+}
+
+[role="columnheader"]:before {
+	content: "(Begin of column header) ";
+}
+
+[role="columnheader"]:after {
+	content: " (End of column header)";
+}
+
+[role="combobox"]:before {
+	content: "(Begin of combobox) ";
+}
+
+[role="combobox"]:after {
+	content: " (End of combobox)";
+}
+
+[role="complementary"]:before {
+	content: "(Begin of complementary content) ";
+}
+
+[role="complementary"]:after {
+	content: " (End of complementary content)";
+}
+
+[role="contentinfo"]:before {
+	content: "(Begin of information of content) ";
+}
+
+[role="contentinfo"]:after {
+	content: " (End of information of content)";
+}
+
+[role="definition"]:before {
+	content: "(Begin of definition) ";
+}
+
+[role="definition"]:after {
+	content: " (End of definition)";
+}
+
+[role="dialog"]:before {
+	content: "(Begin of dialog) ";
+}
+
+[role="dialog"]:after {
+	content: " (End of dialog)";
+}
+
+[role="directory"]:before {
+	content: "(Begin of directory) ";
+}
+
+[role="directory"]:after {
+	content: " (End of directory)";
+}
+
+[role="document"]:before {
+	content: "(Begin of document) ";
+}
+
+[role="document"]:after {
+	content: " (End of document)";
+}
+
+[role="form"]:before {
+	content: "(Begin of form) ";
+}
+
+[role="form"]:after {
+	content: " (End of form)";
+}
+
+[role="grid"]:before {
+	content: "(Begin of grid) ";
+}
+
+[role="grid"]:after {
+	content: " (End of grid)";
+}
+
+[role="gridcell"]:before {
+	content: "(Begin of cell in a grid) ";
+}
+
+[role="gridcell"]:after {
+	content: " (End of cell in a grid)";
+}
+
+[role="group"]:before {
+	content: "(Begin of group) ";
+}
+
+[role="group"]:after {
+	content: " (End of group)";
+}
+
+[role="heading"]:before {
+	content: "(Begin of heading) ";
+}
+
+[role="heading"]:after {
+	content: " (End of heading)";
+}
+
+[role="img"]:before {
+	content: "(Begin of image) ";
+}
+
+[role="img"]:after {
+	content: " (End of image)";
+}
+
+[role="link"]:before {
+	content: "(Begin of link) ";
+}
+
+[role="link"]:after {
+	content: " (End of link)";
+}
+
+[role="list"]:before {
+	content: "(Begin of list) ";
+}
+
+[role="list"]:after {
+	content: " (End of list)";
+}
+
+[role="listbox"]:before {
+	content: "(Begin of list box) ";
+}
+
+[role="listbox"]:after {
+	content: " (End of list box)";
+}
+
+[role="listitem"]:before {
+	content: "(Begin of list item) ";
+}
+
+[role="listitem"]:after {
+	content: " (End of list item)";
+}
+
+[role="log"]:before {
+	content: "(Begin of log) ";
+}
+
+[role="log"]:after {
+	content: " (End of log)";
+}
+
+[role="main"]:before {
+	content: "(Begin of main content) ";
+}
+
+[role="main"]:after {
+	content: " (End of main content)";
+}
+
+[role="marquee"]:before {
+	content: "(Begin of marquee) ";
+}
+
+[role="marquee"]:after {
+	content: " (End of marquee)";
+}
+
+[role="math"]:before {
+	content: "(Begin of math) ";
+}
+
+[role="math"]:after {
+	content: " (End of math)";
+}
+
+[role="menu"]:before {
+	content: "(Begin of menu) ";
+}
+
+[role="menu"]:after {
+	content: " (End of menu)";
+}
+
+[role="menubar"]:before {
+	content: "(Begin of menu bar) ";
+}
+
+[role="menubar"]:after {
+	content: " (End of menu bar)";
+}
+
+[role="menuitem"]:before {
+	content: "(Begin of menu item) ";
+}
+
+[role="menuitem"]:after {
+	content: " (End of menu item)";
+}
+
+[role="menuitemcheckbox"]:before {
+	content: "(Begin of menu item checkbox) ";
+}
+
+[role="menuitemcheckbox"]:after {
+	content: " (End of menu item checkbox)";
+}
+
+[role="menuitemradio"]:before {
+	content: "(Begin of menu item radio) ";
+}
+
+[role="menuitemradio"]:after {
+	content: " (End of menu item radio)";
+}
+
+[role="navigation"]:before {
+	content: "(Begin of navigation) ";
+}
+
+[role="navigation"]:after {
+	content: " (End of navigation)";
+}
+
+[role="note"]:before {
+	content: "(Begin of note) ";
+}
+
+[role="note"]:after {
+	content: " (End of note)";
+}
+
+[role="option"]:before {
+	content: "(Begin of option) ";
+}
+
+[role="option"]:after {
+	content: " (End of option)";
+}
+
+[role="progressbar"]:before {
+	content: "(Begin of progress bar) ";
+}
+
+[role="progressbar"]:after {
+	content: " (End of progress bar)";
+}
+
+[role="radio"]:before {
+	content: "(Begin of radio) ";
+}
+
+[role="radio"]:after {
+	content: " (End of radio)";
+}
+
+[role="radiogroup"]:before {
+	content: "(Begin of radio group) ";
+}
+
+[role="radiogroup"]:after {
+	content: " (End of radio group)";
+}
+
+[role="region"]:before {
+	content: "(Begin of region) ";
+}
+
+[role="region"]:after {
+	content: " (End of region)";
+}
+
+[role="row"]:before {
+	content: "(Begin of row) ";
+}
+
+[role="row"]:after {
+	content: " (End of row)";
+}
+
+[role="rowgroup"]:before {
+	content: "(Begin of row group) ";
+}
+
+[role="rowgroup"]:after {
+	content: " (End of row group)";
+}
+
+[role="rowheader"]:before {
+	content: "(Begin of row header) ";
+}
+
+[role="rowheader"]:after {
+	content: " (End of row header)";
+}
+
+[role="scrollbar"]:before {
+	content: "(Begin of scroll bar) ";
+}
+
+[role="scrollbar"]:after {
+	content: " (End of scroll bar)";
+}
+
+[role="search"]:before {
+	content: "(Begin of search) ";
+}
+
+[role="search"]:after {
+	content: " (End of search)";
+}
+
+[role="separator"]:before {
+	content: "(Begin of separator) ";
+}
+
+[role="separator"]:after {
+	content: " (End of separator)";
+}
+
+[role="slider"]:before {
+	content: "(Begin of slider) ";
+}
+
+[role="slider"]:after {
+	content: " (End of slider)";
+}
+
+[role="spinbutton"]:before {
+	content: "(Begin of spin button) ";
+}
+
+[role="spinbutton"]:after {
+	content: " (End of spin button)";
+}
+
+[role="status"]:before {
+	content: "(Begin of status) ";
+}
+
+[role="status"]:after {
+	content: " (End of status)";
+}
+
+[role="tab"]:before {
+	content: "(Begin of tab) ";
+}
+
+[role="tab"]:after {
+	content: " (End of tab)";
+}
+
+[role="tablist"]:before {
+	content: "(Begin of tab list) ";
+}
+
+[role="tablist"]:after {
+	content: " (End of tab list)";
+}
+
+[role="tabpanel"]:before {
+	content: "(Begin of tab panel) ";
+}
+
+[role="tabpanel"]:after {
+	content: " (End of tab panel)";
+}
+
+[role="textbox"]:before {
+	content: "(Begin of text box) ";
+}
+
+[role="textbox"]:after {
+	content: " (End of text box)";
+}
+
+[role="timer"]:before {
+	content: "(Begin of timer) ";
+}
+
+[role="timer"]:after {
+	content: " (End of timer)";
+}
+
+[role="toolbar"]:before {
+	content: "(Begin of toolbar) ";
+}
+
+[role="toolbar"]:after {
+	content: " (End of toolbar)";
+}
+
+[role="tooltip"]:before {
+	content: "(Begin of tooltip) ";
+}
+
+[role="tooltip"]:after {
+	content: " (End of tooltip)";
+}
+
+[role="tree"]:before {
+	content: "(Begin of tree) ";
+}
+
+[role="tree"]:after {
+	content: " (End of tree)";
+}
+
+[role="treegrid"]:before {
+	content: "(Begin of tree grid) ";
+}
+
+[role="treegrid"]:after {
+	content: " (End of tree grid)";
+}
+
+[role="treeitem"]:before {
+	content: "(Begin of tree item) ";
+}
+
+[role="treeitem"]:after {
+	content: " (End of tree item)";
+}
