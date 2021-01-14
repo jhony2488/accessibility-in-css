@@ -1,2 +1,2 @@
-HaTeMiLe-to-All-for-CSS
+accessibility-in-css
 =============
