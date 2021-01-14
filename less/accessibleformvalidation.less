@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*!
+ * HaTeMiLe to All for CSS
+ *
+ * Copyright 2016 Carlson Santana Cruz
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+@import "config/colors.less";
+
+input[aria-invalid="false"]:focus
+, select[aria-invalid="false"]:focus
+, textarea[aria-invalid="false"]:focus
+, input:valid:focus
+, select:valid:focus
+, textarea:valid:focus {
+	border: 1px solid @color-valid-field;
+	box-shadow: @color-valid-field 0px 0px 2px 0;
+	-webkit-box-shadow: @color-valid-field 0px 0px 2px 0;
+	-moz-box-shadow: @color-valid-field 0px 0px 2px 0;
+}
+
+input[aria-invalid="true"]
+, select[aria-invalid="true"]
+, textarea[aria-invalid="true"]
+, input:invalid
+, select:invalid
+, textarea:invalid {
+	border: 1px solid @color-invalid-field;
+	box-shadow: @color-invalid-field 0px 0px 2px 0;
+	-webkit-box-shadow: @color-invalid-field 0px 0px 2px 0;
+	-moz-box-shadow: @color-invalid-field 0px 0px 2px 0;
+}
