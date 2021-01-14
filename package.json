@@ -1,0 +1,34 @@
+{
+    "name": "accessibility-in-css",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "fix-styles-scss": "prettier-stylelint --write './scss/***.{css,scss}' ",
+        "fix-styles-less": "prettier-stylelint --write './less/***.{css,scss}' "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jhony2488/accessibility-in-css.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jhony2488/accessibility-in-css/issues"
+    },
+    "homepage": "https://github.com/jhony2488/accessibility-in-css#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^7.17.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-clean": "^0.4.0",
+        "gulp-clean-css": "^4.3.0",
+        "prettier": "2.2.1",
+        "prettier-eslint": "^12.0.0",
+        "prettier-eslint-cli": "^5.0.0",
+        "prettier-stylelint": "^0.4.2"
+    }
+}
