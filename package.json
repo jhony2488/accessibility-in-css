@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "fix-styles-scss": "prettier-stylelint --write './scss/***.{css,scss}' ",
-        "fix-styles-less": "prettier-stylelint --write './less/***.{css,scss}' "
+        "fix-styles-less": "prettier-stylelint --write './less/***.{css,less}' "
     },
     "repository": {
         "type": "git",
